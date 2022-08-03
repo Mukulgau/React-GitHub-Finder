@@ -109,3 +109,47 @@ input:focus {
   padding: 10px 20px;
   border-radius: 8px;
 }
+
+@media (max-width: 426px) {
+  .header-wrapper {
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  input[type="search"] {
+    width: 300px;
+    padding: 15px 20px;
+  }
+  input::placeholder {
+    font-size: 18px;
+  }
+  input:focus {
+    font-size: 18px;
+  }
+  .outer-wrapper {
+    padding: 25px;
+  }
+  .card-wrapper {
+    width: 350px;
+    margin: 5px 0;
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  }
+  .user-img {
+    width: 100px;
+    height: 100px;
+  }
+  .text-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .view-btn {
+    background: #3498db;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+  }
+}
